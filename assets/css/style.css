@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbarSupportedContent .navbar-nav {
+    margin-left: auto;
+}
+
+header {
+    background-image: url(/assets/img/face.png.webp);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero .head {
+    margin: 200px;
+}
+
+
+.btn-secondary {
+    width: 200px;
+}
+
+.head p {
+    font-size: 20px;
+}
+
+.head button {
+    height: 40px;
+}
+
+.navigation>.container {
+    width: 90%;
+}
+
+.navigation>.container .logo-toggle-container {
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+}
+
+.navigation>.container .logo-toggle-container a {
+    font-size: 30px;
+    color: rgb(1, 124, 120);
+}
+
+.section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cards .icon {
+    box-shadow: 0px 1px 2px grey;
+    transition: all 0.3s;
+}
+
+.cards .icon:hover {
+    transform: scale(1.10);
+}
+
+.cards .icon .iconpic {
+    width: 180px;
+    border-radius: 50%;
+}
+
+.cards .icon .icons-info {
+    padding-left: 30px;
+}
+
+.about .container .section-title h1 {
+    padding-top: 200px;
+}
+
+.about .section-title .underline {
+    width: 60px;
+    height: 3px;
+    background-color: rgb(1, 124, 120);
+}
+
+.iconA .icon {
+    width: 300px;
+}
+
+.imgIcon img {
+    max-width: 100%;
+    height: 300px;
+}
+
+.icon p {
+    line-height: 30px;
+    color: rgb(92, 91, 91);
+    font-weight: 550;
+}
+
+.btnIcon {
+    background-color: rgb(1, 124, 120);
+    height: 40px;
+}
+
+.btnIcon a {
+    color: white;
+}
+
+.col img {
+    max-width: 100%;
+    margin-top: 20px;
+    width: 350px;
+}
+
+.testimonials .section-title .underline {
+    width: 60px;
+    height: 3px;
+    background-color: white;
+}
+
+
+.Contact .container {
+    width: 100% !important;
+}
+
+
+.contactForm .form-control {
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+.form-control:focus, .form-control:active {
+    border-bottom-color: black !important;
+}
+
+.btn {
+    background-color: rgb(1, 124, 120);
+}
+
+@media screen and (max-width:992px) {
+    header {
+        background-size: cover;
+    }
+
+    .light {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(213, 213, 213, 0.361);
+    }
+
+    .hero .head {
+        margin-left: 10px;
+        margin-top: 40%;
+    }
+
+    .btn-secondary {
+        width: 150px;
+    }
+}
