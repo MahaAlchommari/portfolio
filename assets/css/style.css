@@ -9,11 +9,11 @@
 }
 
 header {
-    background-image: url(/assets/img/face.png.webp);
-    background-size: 1000px;
+    background-image: url(./../img/3d-character-business-woman_935410-577.avif);
+    background-size: 500px;
     background-repeat: no-repeat;
     background-position: right;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 }
 
@@ -107,7 +107,7 @@ header {
 }
 
 .col img {
-    max-width: 100%;
+    max-width: 70vw;
     margin-top: 20px;
     width: 350px;
 }
@@ -138,10 +138,56 @@ header {
     background-color: rgb(1, 124, 120);
 }
 
+.box-area {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+}
+
+.box {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(114, 114, 114, 0.458);
+}
+
+.box img {
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+
+.overlay {
+    height: 0;
+    background: linear-gradient(transparent, #5ca58b 58%);
+    border-radius: 10px;
+    left: 0;
+    bottom: 0;
+    padding: 0 40px;
+    font-size: 14px;
+    transition: height 0.5s;
+    color: #fff;
+
+}
+
+.overlay h3 {
+    margin-top: 30%;
+}
+
+.overlay a {
+    margin-top: 10px;
+    color: #262626;
+    font-size: 14px;
+    border-radius: 50px;
+    padding: 5px 15px;
+}
+
+.box:hover img {
+    transform: scale(1.1);
+}
+
+.box:hover .overlay {
+    height: 100%;
+}
+
 @media screen and (max-width:992px) {
-    header {
-        background-size: cover;
-    }
+
 
     .light {
         width: 100%;
