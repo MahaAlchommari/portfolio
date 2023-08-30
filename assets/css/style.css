@@ -206,10 +206,14 @@ textarea::placeholder {
 @media screen and (max-width:992px) {
 
     .collapse {
-        height: 50vh;
+        height: 45vh;
         position: relative;
         z-index: 1000;
         background-color: rgb(1, 124, 120);
+    }
+
+    .nav-link{
+        color: white;
     }
 
     .light {
