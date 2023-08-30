@@ -203,7 +203,7 @@ textarea::placeholder {
     line-height: 200px;
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:993px) {
 
     .collapse {
         height: 45vh;
@@ -212,7 +212,7 @@ textarea::placeholder {
         background-color: rgb(1, 124, 120);
     }
 
-    .nav-link{
+    .nav-link {
         color: white;
     }
 
@@ -225,8 +225,9 @@ textarea::placeholder {
     .hero .head {
         margin-left: 10px;
         margin-top: 60%;
-        position: absolute;
+        position: fixed;
         z-index: 500;
+        position: fixed;
     }
 
     .btn-secondary {
