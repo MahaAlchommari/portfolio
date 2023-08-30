@@ -8,8 +8,17 @@ body {
     overflow-x: hidden
 }
 
+
 #navbarSupportedContent .navbar-nav {
     margin-left: auto;
+
+}
+
+
+.nav-item {
+    height: 100%;
+    z-index: 1000;
+    position: relative;
 }
 
 header {
@@ -23,6 +32,7 @@ header {
 
 .hero .head {
     margin: 200px;
+
 }
 
 
@@ -167,7 +177,6 @@ header {
     font-size: 14px;
     transition: height 0.5s;
     color: #fff;
-
 }
 
 .overlay h3 {
@@ -196,6 +205,12 @@ textarea::placeholder {
 
 @media screen and (max-width:992px) {
 
+    .collapse {
+        height: 50vh;
+        position: relative;
+        z-index: 1000;
+        background-color: rgb(1, 124, 120);
+    }
 
     .light {
         width: 100%;
@@ -206,6 +221,8 @@ textarea::placeholder {
     .hero .head {
         margin-left: 10px;
         margin-top: 60%;
+        position: absolute;
+        z-index: 500;
     }
 
     .btn-secondary {
